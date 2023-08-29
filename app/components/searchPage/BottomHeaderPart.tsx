@@ -6,7 +6,7 @@ import { useSearchParams, usePathname } from "next/navigation";
 
 const BottomHeaderPart = () => {
   const pathname = usePathname();
-  const searchTerm = useSearchParams().get("searchTerm") as string;
+  const searchTerm = useSearchParams()?.get("searchTerm") as string;
 
   return (
     <div>
