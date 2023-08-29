@@ -1,7 +1,7 @@
 const customLoading = () => {
   return (
     <section className="search-page px-5">
-      <div className="py-4">
+      <div className="py-4 md:pl-[9rem]">
         <p className="mb-5 bg-gray-300 h-1.5 rounded-full w-full max-w-sm"></p>
 
         <div className="card-container">
