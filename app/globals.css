@@ -253,3 +253,6 @@ h5 { font-size: 14px; }
 		letter-spacing: 1px;
 	}
 }
+@media (max-width: 420px){
+	.search-page { min-height: calc(100vh - 160px - 125px); }
+}

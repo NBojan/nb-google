@@ -18,7 +18,7 @@ const SearchForm = () => {
   }
 
   return (
-    <form className="flex-1 flex items-center shadow-md border border-gray-200 rounded-full py-3 px-5 max-w-[600px]" onSubmit={handleSubmit}>
+    <form className="flex-1 flex items-center shadow-md border border-gray-200 rounded-full py-3 px-5 max-w-[600px] mt-1 xs:mt-0" onSubmit={handleSubmit}>
       <input
         type="text"
         name="search"
